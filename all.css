@@ -150,6 +150,17 @@ table {
     margin:0 auto;
     z-index: 5;
 }
+@media(max-width:500px){
+    .banner{
+        background-image: url('./images/gtithub\ pageX400.png');
+        background-position: center center;
+        background-size: cover;
+        vertical-align: middle;
+    }
+    .banner .img1200{
+        display:none;
+    }
+}
 .banner img{
     background-position: center center;
     background-size: cover;
